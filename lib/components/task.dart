@@ -97,10 +97,10 @@ class _TaskState extends State<Task> {
                             });
                             // print(nivel);
                           },
-                          child: Column(
+                          child: const Column(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             crossAxisAlignment: CrossAxisAlignment.end,
-                            children: const [
+                            children: [
                               Icon(Icons.arrow_drop_up),
                               Text(
                                 'UP',
